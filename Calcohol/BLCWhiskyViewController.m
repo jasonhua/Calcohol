@@ -5,7 +5,7 @@
 //  Created by Jason Hua on 8/29/15.
 //  Copyright (c) 2015 JJSports. All rights reserved.
 //
-
+/*
 #import "BLCWhiskyViewController.h"
 
 @interface BLCWhiskyViewController ()
@@ -49,11 +49,8 @@
     NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ contains as much alcohol as %.lf %@ of whiskey.", nil), numberOfBeers, beerText, numberOfWhiskeyGlassesForEquivAlcoholAmt, whiskeyText];
     self.resultLabel.text = resultText;
 
-    if ([UnityAds isReady:@"video"]) {
-        [UnityAds show:self placementId:@"video"];
-    }
 }
-
+*/
 /*
 #pragma mark - Navigation
 
@@ -63,5 +60,3 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-@end

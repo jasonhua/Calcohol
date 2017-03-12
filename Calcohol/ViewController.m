@@ -179,6 +179,11 @@
     
     NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ contains as much alcohol as %.1f %@ of wine.",nil), numberOfBeers, beerText, numberOfWineGlassesForEquivalentAlcoholAmount, wineText];
     self.resultLabel.text = resultText;
+
+    if ([UnityAds isReady:@"video"]) {
+        [UnityAds show:self placementId:@"video"];
+    }
+
 }
 
 - (void)tapGestureDidFire:(UITapGestureRecognizer *)sender {
@@ -186,6 +191,7 @@
 }
 
 - (void)unityAdsReady:(NSString *)placementId{
+    
 }
 
 - (void)unityAdsDidError:(UnityAdsError)error withMessage:(NSString *)message{
@@ -195,6 +201,7 @@
 }
 
 - (void)unityAdsDidFinish:(NSString *)placementId withFinishState:(UnityAdsFinishState)state{
+
 }
 
 
