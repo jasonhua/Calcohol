@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D630ABF1B92852B00FB776E /* BLCWhiskyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D630ABE1B92852B00FB776E /* BLCWhiskyViewController.m */; };
+		9DA7C5611E75DBF200BD4A1E /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA7C5601E75DBF200BD4A1E /* UnityAds.framework */; };
 		9DD5BC011B53038A00D19353 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5BC001B53038A00D19353 /* main.m */; };
 		9DD5BC041B53038A00D19353 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5BC031B53038A00D19353 /* AppDelegate.m */; };
 		9DD5BC071B53038A00D19353 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5BC061B53038A00D19353 /* ViewController.m */; };
-		9DD5BC0A1B53038A00D19353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD5BC081B53038A00D19353 /* Main.storyboard */; };
 		9DD5BC0C1B53038A00D19353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD5BC0B1B53038A00D19353 /* Images.xcassets */; };
 		9DD5BC0F1B53038A00D19353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD5BC0D1B53038A00D19353 /* LaunchScreen.xib */; };
 		9DD5BC1B1B53038A00D19353 /* CalcoholTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5BC1A1B53038A00D19353 /* CalcoholTests.m */; };
@@ -27,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D630ABD1B92852B00FB776E /* BLCWhiskyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCWhiskyViewController.h; sourceTree = "<group>"; };
+		9D630ABE1B92852B00FB776E /* BLCWhiskyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCWhiskyViewController.m; sourceTree = "<group>"; };
+		9DA7C5601E75DBF200BD4A1E /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
 		9DD5BBFB1B53038A00D19353 /* Calcohol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcohol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD5BBFF1B53038A00D19353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DD5BC001B53038A00D19353 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,7 +38,6 @@
 		9DD5BC031B53038A00D19353 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9DD5BC051B53038A00D19353 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9DD5BC061B53038A00D19353 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9DD5BC091B53038A00D19353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DD5BC0B1B53038A00D19353 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9DD5BC0E1B53038A00D19353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9DD5BC141B53038A00D19353 /* CalcoholTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcoholTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA7C5611E75DBF200BD4A1E /* UnityAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,7 @@
 		9DD5BBF21B53038A00D19353 = {
 			isa = PBXGroup;
 			children = (
+				9DA7C5601E75DBF200BD4A1E /* UnityAds.framework */,
 				9DD5BBFD1B53038A00D19353 /* Calcohol */,
 				9DD5BC171B53038A00D19353 /* CalcoholTests */,
 				9DD5BBFC1B53038A00D19353 /* Products */,
@@ -85,10 +90,11 @@
 				9DD5BC031B53038A00D19353 /* AppDelegate.m */,
 				9DD5BC051B53038A00D19353 /* ViewController.h */,
 				9DD5BC061B53038A00D19353 /* ViewController.m */,
-				9DD5BC081B53038A00D19353 /* Main.storyboard */,
 				9DD5BC0B1B53038A00D19353 /* Images.xcassets */,
 				9DD5BC0D1B53038A00D19353 /* LaunchScreen.xib */,
 				9DD5BBFE1B53038A00D19353 /* Supporting Files */,
+				9D630ABD1B92852B00FB776E /* BLCWhiskyViewController.h */,
+				9D630ABE1B92852B00FB776E /* BLCWhiskyViewController.m */,
 			);
 			path = Calcohol;
 			sourceTree = "<group>";
@@ -199,7 +205,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD5BC0A1B53038A00D19353 /* Main.storyboard in Resources */,
 				9DD5BC0F1B53038A00D19353 /* LaunchScreen.xib in Resources */,
 				9DD5BC0C1B53038A00D19353 /* Images.xcassets in Resources */,
 			);
@@ -222,6 +227,7 @@
 				9DD5BC071B53038A00D19353 /* ViewController.m in Sources */,
 				9DD5BC041B53038A00D19353 /* AppDelegate.m in Sources */,
 				9DD5BC011B53038A00D19353 /* main.m in Sources */,
+				9D630ABF1B92852B00FB776E /* BLCWhiskyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9DD5BC081B53038A00D19353 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DD5BC091B53038A00D19353 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DD5BC0D1B53038A00D19353 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,9 +345,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Calcohol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -357,9 +360,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Calcohol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +424,7 @@
 				9DD5BC201B53038A00D19353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DD5BC211B53038A00D19353 /* Build configuration list for PBXNativeTarget "CalcoholTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				9DD5BC231B53038A00D19353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
